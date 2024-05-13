@@ -24,6 +24,20 @@ main{
     padding: 20px;
 }
 
+#change1{
+    color: green;
+}
+
+#change2{
+    color: red;
+}
+figcaption{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .coin-list {
     margin-top: 20px;
 }
@@ -34,6 +48,8 @@ main{
 
 .coin-list ul {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -44,17 +60,18 @@ main{
     border: 1px solid #ccc;
     border-radius: 10px;
     margin-bottom: 20px;
-    padding: 20px
-    ;
+    padding: 20px;
+    margin: 25px 25px 0px 25px ;
 }
 
 .coin-list li figure{
-    margin: 0 0 10px;
+    margin: 0px 0px 10px;
+    margin-bottom: 20px;
 }
 
 .coin-list li img {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    max-width: 100px;
     height: auto;
 }
 
